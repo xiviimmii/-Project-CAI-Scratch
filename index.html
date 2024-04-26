@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scartch เบื้องต้น</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #75b9f5;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 70px; /* ปรับให้มีระยะห่างกับ footer */
+        }
+        .image-container {
+            max-width: 800px;
+            margin-bottom: 20px;
+            position: relative;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .image-description {
+            margin-top: 10px;
+            color: #888;
+            font-style: italic;
+        }
+        .download-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 10px auto;
+        }
+        p {
+            text-align: center;
+            color: #555;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #4c90cb;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: -70px; /* ลดระยะห่างด้านบน */
+            width: 100%;
+        }
+        figure {
+            margin: 0;
+            padding: 0;
+        }
+        figcaption {
+            font-style: italic;
+            font-size: 0.9em;
+            color: #888;
+            margin-top: 5px;
+        }
+        .download-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block; /* เปลี่ยนเป็น inline-block */
+        margin: 10px auto;
+        text-decoration: none; /* ลบ underline */
+        transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* เพิ่ม transition */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    }
+
+    .download-button:hover {
+        background-color: #45a049; /* เปลี่ยนสีเมื่อ hover */
+        transform: translateY(-2px); /* เพิ่มการเลื่อน */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเมื่อ hover */
+    }
+    </style>
+</head>
+<body>
+    <header style="background-color: #75b9f5; color: white; text-align: center; padding: 50px 0;">
+        <h1 style="font-size: 36px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">บทเรียนคอมพิวเตอร์ช่วยสอน</h1>
+        <h2 style="font-size: 30px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">เรื่อง Scartch เบื้องต้น</h2>
+        <h3 style="font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">สำหรับนักเรียนชั้นมัธยมศึกษาตอนต้น</h3>
+      
+    </header>
+    <main>
+        <figure class="image-container">
+            <img src="images/Home.png" alt="Beautiful Image">
+            <figcaption class="image-description">ดาวน์โหลดบทเรียน Scartch เบื้องต้น</figcaption>
+        </figure>
+        <a href="fileCAI/CAI.ppsm" class="download-button">Download</a>
+        
+    </main>
+    
+    
+    <footer style="color: white;">
+        <p>&copy; 2024 All Rights Reserved | บทเรียนคอมพิวเตอร์ช่วยสอน</p>
+        <p>Contact: example@example.com | Phone: 55555</p>
+    </footer>    
+      
+</body>
+</html>
